@@ -1,6 +1,6 @@
 module Memorable
 
-  def reset_all
+  def reset_all #the self keyword is omitted when defining class methods inside modules.
     self.all.clear
   end
 
