@@ -10,7 +10,7 @@ module Memorable
 
   module InstanceMethods
     def initialize
-      self.class.all << self
+      self.class.all << self #@@artists << self && @@songs << self
     end
   end
 end
