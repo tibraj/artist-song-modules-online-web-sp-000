@@ -11,7 +11,7 @@ class Artist
   @@artists = []
 
   def initialize
-    super
+    super #.initialize method to use the code in the Memorable::InstanceMethods module's .initialize method and also to use any additional code in the Artist's .initialize method
     @songs = []
   end
 
